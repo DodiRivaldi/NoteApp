@@ -104,11 +104,11 @@ public class SaveActivity extends AppCompatActivity {
                 createOrUpdate();
                 finish();
                 return true;
-            case R.id.icon_save:
+            case R.id.menu_save:
                 createOrUpdate();
                 finish();
                 return true;
-            case R.id.icon_delete:
+            case R.id.menu_delete:
                 if(id != 0) deleteNote(id);
                 finish();
                 return true;
